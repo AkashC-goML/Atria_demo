@@ -1,0 +1,8 @@
+openai
+langchain
+snowflake-connector-python
+pandas
+python-docx
+streamlit
+fastapi
+python-dotenv
