@@ -191,81 +191,147 @@ def generate_medical_summary(patient_id):
     (Write 100 words about over all summary or the health condition of the patient)
 
     Overview of the findings
-    Cardiovascular System
-        ● Boston Heart Labs            
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report) - In a single paragraph. \n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
-        ● Electrocardiogram (ECG)
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
-        ● Ultrasound Carotid Doppler
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
-        ● CT Coronary Calcium Score
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● Resting Echocardiogram
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● Stress Echocardiogram
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-    ...
-    Cancer Screening
-        ● Grail Galleri Multi
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● Thyroid Sonogram
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● CT Scan of the Chest
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● MRI of the Abdomen and Pelvis
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● MRI of the Prostate
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
+    1. Cardiovascular System
 
-    ...
-    Body Composition
-        ● DEXA Bone Scan
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● DEXA Body Composition
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● AMRA Body Composition
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
+   a. Boston Heart Labs
 
-    ...
-    Additional Laboratory Testing
-        ● Category 1
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-        ● Category 2
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)\n
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
-    ...
-    
+      i. Description: Boston Heart Labs is a specialized laboratory that offers a range of advanced biomarker tests to assess cardiovascular health. For instance, the Lp-PLA2 (Lipoprotein-associated phospholipase A2) test measures the level of this enzyme in the blood, with results given in ng/mL. A normal range is typically below 200 ng/mL. Elevated levels may indicate an increased risk of heart disease or stroke. The source of this information would be the lab report.
+
+      ii. Suggestion: If the Lp-PLA2 levels are elevated, it's crucial to focus on heart-healthy lifestyle changes such as regular exercise, a balanced diet rich in fruits and vegetables, and quitting smoking. Medication may also be necessary, as determined by a healthcare professional.
+
+      iii. Evaluation: Elevated
+
+   b. Electrocardiogram (ECG)
+
+      i. Description: An ECG is a non-invasive test that measures the electrical activity of the heart, with results typically interpreted as normal or abnormal patterns. For example, a normal sinus rhythm shows a consistent and regular heartbeat. An abnormal result, such as atrial fibrillation, may indicate an increased risk of stroke or heart failure. The source of this information would be the image report or doctor's note.
+
+      ii. Suggestion: If the ECG shows an abnormal heart rhythm, it's important to consult with a cardiologist to discuss treatment options, which may include medication, lifestyle changes, or medical procedures.
+
+      iii. Evaluation: Abnormal
+
+   c. Ultrasound Carotid Doppler
+
+      i. Description: A Carotid Doppler is a non-invasive ultrasound test that measures the blood flow in the carotid arteries, which supply blood to the brain. The results may show the peak systolic velocity (PSV) in cm/s, with a normal range typically below 125 cm/s. Elevated PSV may indicate a narrowing or blockage in the artery, increasing the risk of stroke. The source of this information would be the image report.
+
+      ii. Suggestion: If the Carotid Doppler shows an elevated PSV, it's important to manage the condition through lifestyle changes, such as a healthy diet and regular exercise, and potentially medication or surgery, as determined by a healthcare professional.
+
+      iii. Evaluation: Elevated
+
+   d. CT Coronary Calcium Score
+
+      i. Description: A CT Coronary Calcium Score is a non-invasive imaging test that measures the amount of calcium in the coronary arteries, an indicator of plaque buildup. The results are given as a score, with a normal range typically being 0. A higher score may indicate an increased risk of heart disease. The source of this information would be the image report.
+
+      ii. Suggestion: If the Coronary Calcium Score is high, it's important to focus on heart-healthy lifestyle changes, such as a balanced diet, regular exercise, and quitting smoking. Medication may also be necessary, as determined by a healthcare professional.
+
+      iii. Evaluation: Elevated
+
+   e. Resting Echocardiogram
+
+      i. Description: A Resting Echocardiogram is a non-invasive ultrasound test that provides a detailed view of the heart's structure and function. The results may include the ejection fraction (EF), a measure of the heart's pumping efficiency, with a normal range typically being 55-70%. A lower EF may indicate heart disease. The source of this information would be the image report.
+
+      ii. Suggestion: If the Resting Echocardiogram shows a low EF, it's important to consult with a cardiologist to discuss treatment options, which may include medication, lifestyle changes, or medical procedures.
+
+      iii. Evaluation: Low
+
+   f. Stress Echocardiogram
+
+      i. Description: A Stress Echocardiogram is an ultrasound test that measures the heart's function during physical activity, helping to detect signs of heart disease. The results may show normal or abnormal patterns of blood flow. An abnormal result may indicate an increased risk of heart disease. The source of this information would be the image report.
+
+      ii. Suggestion: If the Stress Echocardiogram shows an abnormal result, it's important to consult with a cardiologist to discuss treatment options, which may include medication, lifestyle changes, or medical procedures.
+
+      iii. Evaluation: Abnormal
+
+...
+
+2. Cancer Screening
+
+   a. Grail Galleri Multi
+
+      i. Description: The Grail Galleri Multi is a blood test that can detect over 50 types of cancer, often before symptoms appear. The results are given as 'detected' or 'not detected'. A 'detected' result may indicate the presence of cancer, and further testing is required. The source of this information would be the lab report.
+
+      ii. Suggestion: If the Grail Galleri Multi test is positive, it's crucial to consult with an oncologist to discuss the next steps, which may include further diagnostic tests and treatment options.
+
+      iii. Evaluation: Severe
+
+   b. Thyroid Sonogram
+
+      i. Description: A Thyroid Sonogram is an ultrasound test that provides a detailed view of the thyroid gland and surrounding tissues. The results may show the size and appearance of the thyroid, with a normal range varying based on age and sex. An abnormal result, such as a nodule or growth, may indicate an increased risk of thyroid cancer. The source of this information would be the image report.
+
+      ii. Suggestion: If the Thyroid Sonogram shows an abnormal result, it's important to consult with an endocrinologist or oncologist to discuss the next steps, which may include further diagnostic tests and treatment options.
+
+      iii. Evaluation: Abnormal
+
+   c. CT Scan of the Chest
+
+      i. Description: A CT Scan of the Chest is an imaging test that provides a detailed view of the chest and surrounding tissues. The results may show the size and appearance of the organs, with a normal range varying based on age and sex. An abnormal result, such as a growth or mass, may indicate an increased risk of lung cancer or other conditions. The source of this information would be the image report.
+
+      ii. Suggestion: If the CT Scan of the Chest shows an abnormal result, it's important to consult with a pulmonologist or oncologist to discuss the next steps, which may include further diagnostic tests and treatment options.
+
+      iii. Evaluation: Abnormal
+
+   d. MRI of the Abdomen and Pelvis
+
+      i. Description: An MRI of the Abdomen and Pelvis is an imaging test that provides a detailed view of the abdomen and pelvis. The results may show the size and appearance of the organs, with a normal range varying based on age and sex. An abnormal result, such as a growth or mass, may indicate an increased risk of cancer or other conditions. The source of this information would be the image report.
+
+      ii. Suggestion: If the MRI of the Abdomen and Pelvis shows an abnormal result, it's important to consult with a specialist or oncologist to discuss the next steps, which may include further diagnostic tests and treatment options.
+
+      iii. Evaluation: Abnormal
+
+   e. MRI of the Prostate
+
+      i. Description: An MRI of the Prostate is an imaging test that provides a detailed view of the prostate gland and surrounding tissues. The results may show the size and appearance of the prostate, with a normal range varying based on age and sex. An abnormal result, such as a growth or mass, may indicate an increased risk of prostate cancer. The source of this information would be the image report.
+
+      ii. Suggestion: If the MRI of the Prostate shows an abnormal result, it's important to consult with a urologist or oncologist to discuss the next steps, which may include further diagnostic tests and treatment options.
+
+      iii. Evaluation: Abnormal
+
+...
+
+3. Body Composition
+
+   a. DEXA Bone Scan
+
+      i. Description: A DEXA Bone Scan is an imaging test that measures bone density and body composition, including bone mass, fat mass, and lean mass. The results may include a T-score, which compares the bone density to that of a healthy young adult, with a normal range typically being -1.0 or above. A lower T-score may indicate an increased risk of osteoporosis. The source of this information would be the image report.
+
+      ii. Suggestion: If the DEXA Bone Scan shows a low T-score, it's important to focus on bone-healthy lifestyle changes, such as a balanced diet rich in calcium and vitamin D, regular weight-bearing exercise, and quitting smoking. Medication may also be necessary, as determined by a healthcare professional.
+
+      iii. Evaluation: Low
+
+   b. DEXA Body Composition
+
+      i. Description: A DEXA Body Composition test is an imaging test that provides a detailed breakdown of body composition, including bone mass, fat mass, and lean mass. The results may include the percentage of body fat, with a normal range varying based on age and sex. A higher or lower percentage may indicate an increased risk of health conditions. The source of this information would be the image report.
+
+      ii. Suggestion: If the DEXA Body Composition test shows an abnormal percentage of body fat, it's important to focus on a balanced diet and regular exercise to achieve and maintain a healthy weight.
+
+      iii. Evaluation: Elevated or Low, depending on the result
+
+   c. AMRA Body Composition
+
+      i. Description: An AMRA Body Composition test is an MRI-based test that provides a detailed breakdown of body composition, including fat distribution and muscle mass. The results may include the percentage of body fat and muscle mass, with a normal range varying based on age and sex. An abnormal result may indicate an increased risk of health conditions. The source of this information would be the image report.
+
+      ii. Suggestion: If the AMRA Body Composition test shows an abnormal result, it's important to focus on a balanced diet and regular exercise, including strength training, to achieve and maintain a healthy body composition.
+
+      iii. Evaluation: Elevated or Low, depending on the result
+
+...
+
+4. Additional Laboratory Testing
+
+   a. Category 1
+
+      i. Description, potential implications, and source will vary based on the specific test.
+
+      ii. Suggestion will be tailored to the specific condition or result.
+
+      iii. Evaluation will be based on the specific values, units, and normal range.
+
+   b. Category 2
+
+      i. Description, potential implications, and source will vary based on the specific test.
+
+      ii. Suggestion will be tailored to the specific condition or result.
+
+      iii. Evaluation will be based on the specific values, units, and normal range.
     (Strictly follow the above mentioned output format)
     (At least 10 Descriptions total across the sections, following the substructure provided for description, implications, source, and patient concerns)
 
