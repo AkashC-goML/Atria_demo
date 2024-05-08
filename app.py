@@ -193,77 +193,77 @@ def generate_medical_summary(patient_id):
     Overview of the findings
     Cardiovascular System
         ● Boston Heart Labs            
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report) - In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report) - In a single paragraph. \n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
         ● Electrocardiogram (ECG)
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
         ● Ultrasound Carotid Doppler
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic. \n
         ● CT Coronary Calcium Score
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph. \n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● Resting Echocardiogram
-            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description(200-300 words) (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● Stress Echocardiogram
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
     ...
     Cancer Screening
         ● Grail Galleri Multi
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● Thyroid Sonogram
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● CT Scan of the Chest
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● MRI of the Abdomen and Pelvis
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● MRI of the Prostate
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
 
     ...
     Body Composition
         ● DEXA Bone Scan
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● DEXA Body Composition
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● AMRA Body Composition
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)- In a single paragraph.\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
 
     ...
     Additional Laboratory Testing
         ● Category 1
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
         ● Category 2
-            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)
-            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. 
-            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.
+            ○ Description (specific values, units, comparison to normal range) AND Potential implications for patient's health AND Source (doctor's note, image report, lab report)\n
+            ○ Suggestion - If the description about the patient condition is worse prioritize on suggesting the cause and recovery tips, else only suggest about diet, excersises, tips for keeping your health good on the current topic. \n
+            Evaluation - You must pick only option from these options - Normal / Elevated / Low / Severe / Acute based on which relates best with the description of the current topic.\n
     ...
     
     (Strictly follow the above mentioned output format)
